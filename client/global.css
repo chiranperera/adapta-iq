@@ -108,7 +108,7 @@
 
 @layer utilities {
   .hero-gradient {
-    background-image: url('https://cdn.builder.io/api/v1/image/assets%2Fc5814c5d11f14bad955f8b51830da316%2F87cffd498ea84a8798f245748ec3b4bb?format=webp&width=1920'), linear-gradient(135deg, #2563eb 0%, #1e40af 50%, #1e3a8a 100%);
+    background-image: url('https://cdn.builder.io/api/v1/image/assets%2Fc5814c5d11f14bad955f8b51830da316%2F85f7942f9a814438b67630bfd9cdaae4?format=webp&width=1920'), linear-gradient(135deg, #2563eb 0%, #1e40af 50%, #1e3a8a 100%);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
