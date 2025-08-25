@@ -67,14 +67,14 @@ export default function Index() {
               AdaptaIQ builds intelligence that learns you, evolving with every<br />
               person, every interaction, every goal.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button className="bg-adaptaiq-blue-500 hover:bg-adaptaiq-blue-600 text-adaptaiq-blue-100 font-bold px-8 py-4 rounded-full text-lg border border-adaptaiq-blue-400">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center py-8">
+              <Button className="bg-adaptaiq-blue-500 hover:bg-adaptaiq-blue-600 text-adaptaiq-blue-100 font-bold px-8 py-6 rounded-full text-lg border border-adaptaiq-blue-400">
                 Join Early Access
                 <svg className="ml-3 w-5 h-4" viewBox="0 0 32 17" fill="none">
                   <path d="M24 8.5L32 0.5L24 16.5M0 8.5H31" stroke="currentColor" strokeWidth="2"/>
                 </svg>
               </Button>
-              <Button variant="outline" className="bg-black/60 border-adaptaiq-blue-800 text-adaptaiq-blue-400 hover:bg-black/80 font-bold px-8 py-4 rounded-full text-lg">
+              <Button variant="outline" className="bg-black/60 border-adaptaiq-blue-800 text-adaptaiq-blue-400 hover:bg-black/80 font-bold px-8 py-6 rounded-full text-lg">
                 Learn More
                 <svg className="ml-3 w-5 h-4" viewBox="0 0 32 17" fill="none">
                   <path d="M24 8.5L32 0.5L24 16.5M0 8.5H31" stroke="currentColor" strokeWidth="2"/>
