@@ -1,7 +1,7 @@
 import "./global.css";
 
 import { Toaster } from "@/components/ui/toaster";
-import { createRoot } from "react-dom/client";
+import { createRoot, Root } from "react-dom/client";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
@@ -33,4 +33,16 @@ const App = () => (
   </QueryClientProvider>
 );
 
-createRoot(document.getElementById("root")!).render(<App />);
+// Prevent multiple root creation in development
+const container = document.getElementById("root")!;
+let root: Root;
+
+// Check if root already exists (for HMR compatibility)
+if (!container._reactRoot) {
+  root = createRoot(container);
+  (container as any)._reactRoot = root;
+} else {
+  root = (container as any)._reactRoot;
+}
+
+root.render(<App />);
