@@ -35,14 +35,18 @@ const App = () => (
 
 // Prevent multiple root creation in development
 const container = document.getElementById("root")!;
-let root: Root | null = null;
 
-// Initialize root only once
+// Global variable to track if root has been created
+declare global {
+  var __REACT_ROOT__: Root | undefined;
+}
+
+// Initialize root only once, even with HMR
 function initializeApp() {
-  if (!root) {
-    root = createRoot(container);
+  if (!globalThis.__REACT_ROOT__) {
+    globalThis.__REACT_ROOT__ = createRoot(container);
   }
-  root.render(<App />);
+  globalThis.__REACT_ROOT__.render(<App />);
 }
 
 // Initialize the app
