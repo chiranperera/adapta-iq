@@ -317,20 +317,12 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12">
             {/* Logo */}
-            <div className="flex items-center space-x-3 mb-8 md:mb-0">
-              <div className="w-16 h-16 bg-gradient-to-br from-adaptaiq-blue-500 to-adaptaiq-blue-600 rounded-lg flex items-center justify-center">
-                <div className="w-10 h-10 bg-white rounded-md flex items-center justify-center">
-                  <div className="w-8 h-8 bg-gradient-to-br from-adaptaiq-blue-500 to-adaptaiq-blue-600 rounded"></div>
-                </div>
-              </div>
-              <div>
-                <div className="text-3xl font-normal text-adaptaiq-gray-400">
-                  Adapta<span className="text-adaptaiq-blue-500 font-normal">IQ</span>
-                </div>
-                <div className="text-xs text-adaptaiq-blue-800 tracking-wide">
-                  PERSONALIZED. INTELLIGENT. EFFORTLESS.
-                </div>
-              </div>
+            <div className="flex items-center mb-8 md:mb-0">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc5814c5d11f14bad955f8b51830da316%2F3fef1a08a8ea447d91f73194ffdcce42?format=webp&width=800"
+                alt="AdaptaIQ Logo"
+                className="h-16 w-auto filter brightness-200"
+              />
             </div>
 
             {/* Contact Info */}
