@@ -7,20 +7,12 @@ export default function EarlyAccess() {
       <header className="w-full bg-white border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
-            <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 bg-gradient-to-br from-adaptaiq-blue-500 to-adaptaiq-blue-600 rounded-lg flex items-center justify-center">
-                <div className="w-8 h-8 bg-white rounded-md flex items-center justify-center">
-                  <div className="w-6 h-6 bg-gradient-to-br from-adaptaiq-blue-500 to-adaptaiq-blue-600 rounded"></div>
-                </div>
-              </div>
-              <div>
-                <div className="text-2xl font-normal text-adaptaiq-gray-500">
-                  Adapta<span className="text-adaptaiq-blue-500 font-normal">IQ</span>
-                </div>
-                <div className="text-xs font-bold text-adaptaiq-blue-200 tracking-wide">
-                  PERSONALIZED.INTELLIGENT. EFFORTLESS.
-                </div>
-              </div>
+            <div className="flex items-center">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc5814c5d11f14bad955f8b51830da316%2F3fef1a08a8ea447d91f73194ffdcce42?format=webp&width=800"
+                alt="AdaptaIQ Logo"
+                className="h-12 w-auto"
+              />
             </div>
             <nav className="hidden md:flex items-center space-x-8">
               <Link to="/" className="text-adaptaiq-gray-600 font-bold text-sm hover:text-adaptaiq-blue-500 transition-colors">
