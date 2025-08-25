@@ -111,40 +111,13 @@ export default function Index() {
               </div>
             </div>
 
-            {/* Right Content - Quote */}
-            <div className="relative">
-              <div className="bg-white rounded-3xl p-12 shadow-lg relative">
-                <div className="absolute -top-6 -left-6 w-16 h-12 flex items-center justify-center">
-                  <svg className="w-16 h-12 text-adaptaiq-blue-200" viewBox="0 0 76 60" fill="currentColor">
-                    <path d="M17 0C7.6 0 0 7.6 0 17v26c0 9.4 7.6 17 17 17h9V43H17c-4.4 0-8-3.6-8-8V17c0-4.4 3.6-8 8-8h9V0h-9zm42 0c-9.4 0-17 7.6-17 17v26c0 9.4 7.6 17 17 17h9V43h-9c-4.4 0-8-3.6-8-8V17c0-4.4 3.6-8 8-8h9V0h-9z"/>
-                  </svg>
-                </div>
-                <div className="text-center">
-                  <p className="text-3xl md:text-4xl font-bold text-adaptaiq-gray-800 italic mb-4">
-                    "Because <span className="text-adaptaiq-blue-500">intelligence</span>
-                  </p>
-                  <p className="text-3xl md:text-4xl font-bold text-adaptaiq-gray-800 italic">
-                    should adapt to us, not the other way around."
-                  </p>
-                </div>
-                <div className="absolute -bottom-6 -right-6 w-16 h-12 flex items-center justify-center rotate-180">
-                  <svg className="w-16 h-12 text-adaptaiq-blue-200" viewBox="0 0 76 60" fill="currentColor">
-                    <path d="M17 0C7.6 0 0 7.6 0 17v26c0 9.4 7.6 17 17 17h9V43H17c-4.4 0-8-3.6-8-8V17c0-4.4 3.6-8 8-8h9V0h-9zm42 0c-9.4 0-17 7.6-17 17v26c0 9.4 7.6 17 17 17h9V43h-9c-4.4 0-8-3.6-8-8V17c0-4.4 3.6-8 8-8h9V0h-9z"/>
-                  </svg>
-                </div>
-              </div>
-              <div className="absolute top-4 right-4 w-96 h-96 rounded-full opacity-10">
-                <svg viewBox="0 0 400 400" className="w-full h-full">
-                  <defs>
-                    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
-                      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#51B7FE" strokeWidth="1"/>
-                    </pattern>
-                  </defs>
-                  <circle cx="200" cy="200" r="180" fill="url(#grid)" opacity="0.3"/>
-                  <circle cx="200" cy="200" r="120" fill="#51B7FE" opacity="0.1"/>
-                  <circle cx="200" cy="200" r="60" fill="#51B7FE" opacity="0.2"/>
-                </svg>
-              </div>
+            {/* Right Content - AdaptaIQ Visual */}
+            <div className="relative flex items-center justify-center">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc5814c5d11f14bad955f8b51830da316%2F8ade0503a2594401ad4780c210b4bfc2?format=webp&width=800"
+                alt="AdaptaIQ Intelligence Visualization"
+                className="w-full max-w-md h-auto mx-auto rounded-full shadow-lg"
+              />
             </div>
           </div>
         </div>
