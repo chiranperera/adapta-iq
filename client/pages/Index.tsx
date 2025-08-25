@@ -125,6 +125,25 @@ export default function Index() {
               />
             </div>
           </div>
+
+          {/* Quote Section */}
+          <div className="mt-16 text-center">
+            <div className="relative bg-gray-100 rounded-2xl p-8 max-w-4xl mx-auto">
+              <div className="absolute -top-4 -left-4 text-6xl text-adaptaiq-blue-400">
+                <svg className="w-12 h-12" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M14,17H17L19,13V7H13V13H16M6,17H9L11,13V7H5V13H8L6,17Z" />
+                </svg>
+              </div>
+              <blockquote className="text-2xl md:text-3xl font-bold text-adaptaiq-gray-800 italic">
+                "Because <span className="text-adaptaiq-blue-500">intelligence</span> should adapt to us, not the other way around."
+              </blockquote>
+              <div className="absolute -bottom-4 -right-4 text-6xl text-adaptaiq-gray-400 rotate-180">
+                <svg className="w-12 h-12" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M14,17H17L19,13V7H13V13H8L6,17Z" />
+                </svg>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
