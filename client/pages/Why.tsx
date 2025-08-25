@@ -15,16 +15,28 @@ export default function Why() {
               />
             </div>
             <nav className="hidden md:flex items-center space-x-8">
-              <Link to="/" className="text-adaptaiq-gray-600 font-bold text-sm hover:text-adaptaiq-blue-500 transition-colors">
+              <Link
+                to="/"
+                className="text-adaptaiq-gray-600 font-bold text-sm hover:text-adaptaiq-blue-500 transition-colors"
+              >
                 Home
               </Link>
-              <Link to="/about" className="text-adaptaiq-gray-600 font-bold text-sm hover:text-adaptaiq-blue-500 transition-colors">
+              <Link
+                to="/about"
+                className="text-adaptaiq-gray-600 font-bold text-sm hover:text-adaptaiq-blue-500 transition-colors"
+              >
                 About
               </Link>
-              <Link to="/why" className="text-adaptaiq-blue-500 font-bold text-sm">
+              <Link
+                to="/why"
+                className="text-adaptaiq-blue-500 font-bold text-sm"
+              >
                 Why
               </Link>
-              <Link to="/early-access" className="text-adaptaiq-gray-500 font-bold text-sm hover:text-adaptaiq-blue-500 transition-colors">
+              <Link
+                to="/early-access"
+                className="text-adaptaiq-gray-500 font-bold text-sm hover:text-adaptaiq-blue-500 transition-colors"
+              >
                 Early Access
               </Link>
             </nav>
@@ -34,12 +46,17 @@ export default function Why() {
 
       {/* Placeholder Content */}
       <div className="max-w-4xl mx-auto px-4 py-24 text-center">
-        <h1 className="text-4xl font-bold text-adaptaiq-gray-900 mb-8">Why AdaptaIQ?</h1>
+        <h1 className="text-4xl font-bold text-adaptaiq-gray-900 mb-8">
+          Why AdaptaIQ?
+        </h1>
         <div className="bg-gray-50 rounded-lg p-12 border-2 border-dashed border-gray-200">
           <div className="text-6xl mb-4">🚧</div>
-          <h2 className="text-2xl font-semibold text-gray-600 mb-4">Page Under Construction</h2>
+          <h2 className="text-2xl font-semibold text-gray-600 mb-4">
+            Page Under Construction
+          </h2>
           <p className="text-gray-500 mb-6">
-            This page is currently being developed. Please continue the conversation to have me build out this page content.
+            This page is currently being developed. Please continue the
+            conversation to have me build out this page content.
           </p>
           <Link
             to="/"

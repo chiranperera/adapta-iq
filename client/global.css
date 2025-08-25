@@ -102,13 +102,24 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    font-family:
+      "Poppins",
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      "Roboto",
+      "Oxygen",
+      "Ubuntu",
+      "Cantarell",
+      sans-serif;
   }
 }
 
 @layer utilities {
   .hero-gradient {
-    background-image: url('https://cdn.builder.io/api/v1/image/assets%2Fc5814c5d11f14bad955f8b51830da316%2F85f7942f9a814438b67630bfd9cdaae4?format=webp&width=1920'), linear-gradient(135deg, #2563eb 0%, #1e40af 50%, #1e3a8a 100%);
+    background-image:
+      url("https://cdn.builder.io/api/v1/image/assets%2Fc5814c5d11f14bad955f8b51830da316%2F85f7942f9a814438b67630bfd9cdaae4?format=webp&width=1920"),
+      linear-gradient(135deg, #2563eb 0%, #1e40af 50%, #1e3a8a 100%);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -120,12 +131,16 @@
   }
 
   .dot-pattern {
-    background-image: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+    background-image: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px
+    );
     background-size: 20px 20px;
   }
 
   .text-gradient {
-    background: linear-gradient(135deg, #51B7FE 0%, #4DAEE9 100%);
+    background: linear-gradient(135deg, #51b7fe 0%, #4daee9 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
