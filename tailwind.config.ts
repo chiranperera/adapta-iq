@@ -57,6 +57,33 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // AdaptaIQ specific colors
+        adaptaiq: {
+          blue: {
+            50: "#E0F2FE",
+            100: "#C6E7FE",
+            200: "#B4E0FE",
+            300: "#77C6FD",
+            400: "#5BBCFD",
+            500: "#51B7FE",
+            600: "#4DAEE9",
+            700: "#4398CC",
+            800: "#498BB9",
+            900: "#295C7F",
+          },
+          gray: {
+            50: "#F2F5F6",
+            100: "#E4E7E9",
+            200: "#D8E7F1",
+            300: "#C8D1D7",
+            400: "#989BA5",
+            500: "#777C87",
+            600: "#727272",
+            700: "#3D3D3D",
+            800: "#2B2B2B",
+            900: "#141414",
+          },
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
