@@ -141,19 +141,11 @@ export default function Index() {
               <div className="absolute top-6 right-6 w-6 h-6 border-2 border-gray-200 rounded-full"></div>
               <div className="mb-8">
                 <div className="w-24 h-24 mx-auto mb-6 relative">
-                  <svg viewBox="0 0 101 111" className="w-full h-full">
-                    <defs>
-                      <linearGradient id="brain-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                        <stop offset="0%" stopColor="#51B7FE"/>
-                        <stop offset="100%" stopColor="#4DAEE9"/>
-                      </linearGradient>
-                    </defs>
-                    <path d="M50.5 111C78.1 111 101 86.1 101 55.5S78.1 0 50.5 0 0 24.9 0 55.5 22.9 111 50.5 111z" fill="url(#brain-gradient)" opacity="0.2"/>
-                    <circle cx="30" cy="40" r="8" fill="#51B7FE"/>
-                    <circle cx="70" cy="40" r="8" fill="#51B7FE"/>
-                    <circle cx="50" cy="70" r="6" fill="#4DAEE9"/>
-                    <path d="M25 60 Q50 45 75 60" stroke="#51B7FE" strokeWidth="3" fill="none"/>
-                  </svg>
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets%2Fc5814c5d11f14bad955f8b51830da316%2F7d729f6a2c9a4aeb8b2feb62f15454b1?format=webp&width=800"
+                    alt="Learns You Icon"
+                    className="w-full h-full object-contain"
+                  />
                 </div>
               </div>
               <h4 className="text-2xl font-normal text-adaptaiq-gray-800 mb-4 text-center">
@@ -168,21 +160,11 @@ export default function Index() {
             <div className="bg-white border border-gray-200 rounded-3xl p-8 relative group hover:shadow-lg transition-shadow">
               <div className="mb-8">
                 <div className="w-24 h-24 mx-auto mb-6 relative">
-                  <svg viewBox="0 0 126 94" className="w-full h-full">
-                    <defs>
-                      <linearGradient id="learn-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                        <stop offset="0%" stopColor="#6AC2FE"/>
-                        <stop offset="100%" stopColor="#51B7FE"/>
-                      </linearGradient>
-                    </defs>
-                    <rect x="10" y="10" width="80" height="60" rx="8" fill="url(#learn-gradient)" opacity="0.3"/>
-                    <rect x="20" y="20" width="20" height="4" fill="#6AC2FE"/>
-                    <rect x="50" y="20" width="30" height="4" fill="#6AC2FE"/>
-                    <rect x="20" y="30" width="40" height="4" fill="#51B7FE"/>
-                    <rect x="20" y="40" width="25" height="4" fill="#4DAEE9"/>
-                    <circle cx="100" cy="30" r="15" fill="#6AC2FE" opacity="0.2"/>
-                    <path d="M95 30 L105 30 M100 25 L100 35" stroke="#6AC2FE" strokeWidth="2"/>
-                  </svg>
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets%2Fc5814c5d11f14bad955f8b51830da316%2F6ebe89430f354839a1d2f5dacc17c9f5?format=webp&width=800"
+                    alt="Redefines Learning Icon"
+                    className="w-full h-full object-contain"
+                  />
                 </div>
               </div>
               <h4 className="text-2xl font-bold text-adaptaiq-blue-500 mb-4 text-center">
@@ -199,21 +181,11 @@ export default function Index() {
               <div className="absolute bottom-8 left-8 w-6 h-6 border border-gray-300 rounded"></div>
               <div className="mb-8">
                 <div className="w-24 h-24 mx-auto mb-6 relative">
-                  <svg viewBox="0 0 103 106" className="w-full h-full">
-                    <defs>
-                      <linearGradient id="evolve-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                        <stop offset="0%" stopColor="#51B7FE"/>
-                        <stop offset="100%" stopColor="#4398CC"/>
-                      </linearGradient>
-                    </defs>
-                    <path d="M20 20 Q51.5 0 83 20 Q103 51.5 83 83 Q51.5 103 20 83 Q0 51.5 20 20 Z" fill="url(#evolve-gradient)" opacity="0.2"/>
-                    <circle cx="30" cy="30" r="4" fill="#51B7FE"/>
-                    <circle cx="70" cy="30" r="4" fill="#51B7FE"/>
-                    <circle cx="50" cy="50" r="6" fill="#4398CC"/>
-                    <circle cx="30" cy="70" r="4" fill="#4DAEE9"/>
-                    <circle cx="70" cy="70" r="4" fill="#4DAEE9"/>
-                    <path d="M30 30 L50 50 M70 30 L50 50 M50 50 L30 70 M50 50 L70 70" stroke="#51B7FE" strokeWidth="2"/>
-                  </svg>
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets%2Fc5814c5d11f14bad955f8b51830da316%2Fd68cecd24ea44aa0aa57b6cb7a646552?format=webp&width=800"
+                    alt="Built to Evolve Icon"
+                    className="w-full h-full object-contain"
+                  />
                 </div>
               </div>
               <h4 className="text-2xl font-bold text-adaptaiq-gray-800 mb-4 text-center">
