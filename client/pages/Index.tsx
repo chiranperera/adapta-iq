@@ -55,7 +55,12 @@ export default function Index() {
       {/* Hero Section */}
       <section className="relative h-screen hero-gradient dot-pattern overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-900/90 via-blue-800/95 to-blue-900/90"></div>
-        <div className="relative z-10 h-full flex items-center justify-center">
+        <div className="relative z-10 h-full flex items-center justify-center" style={{
+          backgroundImage: "url(https://cdn.builder.io/api/v1/image/assets%2Fc5814c5d11f14bad955f8b51830da316%2Fa32ebde21fec4c1dab6e666e3b2c2637)",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+          backgroundSize: "cover"
+        }}>
           <div className="max-w-6xl mx-auto px-4 text-center">
             <h1 className="text-5xl md:text-7xl font-normal text-white mb-6 leading-tight">
               The Future of Learn<span className="text-adaptaiq-blue-200">ing</span>
