@@ -37,18 +37,18 @@ export default function Index() {
 
             {/* Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
-              <a href="#" className="text-adaptaiq-gray-600 font-bold text-sm hover:text-adaptaiq-blue-500 transition-colors">
+              <Link to="/" className="text-adaptaiq-blue-500 font-bold text-sm hover:text-adaptaiq-blue-600 transition-colors">
                 Home
-              </a>
-              <a href="#" className="text-adaptaiq-gray-500 font-bold text-sm hover:text-adaptaiq-blue-500 transition-colors">
+              </Link>
+              <Link to="/about" className="text-adaptaiq-gray-500 font-bold text-sm hover:text-adaptaiq-blue-500 transition-colors">
                 About
-              </a>
-              <a href="#" className="text-adaptaiq-gray-600 font-bold text-sm hover:text-adaptaiq-blue-500 transition-colors">
+              </Link>
+              <Link to="/why" className="text-adaptaiq-gray-600 font-bold text-sm hover:text-adaptaiq-blue-500 transition-colors">
                 Why
-              </a>
-              <a href="#" className="text-adaptaiq-gray-500 font-bold text-sm hover:text-adaptaiq-blue-500 transition-colors">
+              </Link>
+              <Link to="/early-access" className="text-adaptaiq-gray-500 font-bold text-sm hover:text-adaptaiq-blue-500 transition-colors">
                 Early Access
-              </a>
+              </Link>
               <Button className="bg-adaptaiq-blue-500 hover:bg-adaptaiq-blue-600 text-adaptaiq-blue-100 font-bold px-6 py-2 rounded-full border border-adaptaiq-blue-300">
                 Join Waitlist
                 <svg className="ml-2 w-4 h-3" viewBox="0 0 32 17" fill="none">
