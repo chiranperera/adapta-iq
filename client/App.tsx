@@ -35,14 +35,15 @@ const App = () => (
 
 // Prevent multiple root creation in development
 const container = document.getElementById("root")!;
-let root: Root;
+let root: Root | null = null;
 
-// Check if root already exists (for HMR compatibility)
-if (!container._reactRoot) {
-  root = createRoot(container);
-  (container as any)._reactRoot = root;
-} else {
-  root = (container as any)._reactRoot;
+// Initialize root only once
+function initializeApp() {
+  if (!root) {
+    root = createRoot(container);
+  }
+  root.render(<App />);
 }
 
-root.render(<App />);
+// Initialize the app
+initializeApp();
