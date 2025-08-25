@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Why() {
   return (
     <div className="min-h-screen bg-white">
@@ -21,18 +23,18 @@ export default function Why() {
               </div>
             </div>
             <nav className="hidden md:flex items-center space-x-8">
-              <a href="/" className="text-adaptaiq-gray-600 font-bold text-sm hover:text-adaptaiq-blue-500 transition-colors">
+              <Link to="/" className="text-adaptaiq-gray-600 font-bold text-sm hover:text-adaptaiq-blue-500 transition-colors">
                 Home
-              </a>
-              <a href="/about" className="text-adaptaiq-gray-600 font-bold text-sm hover:text-adaptaiq-blue-500 transition-colors">
+              </Link>
+              <Link to="/about" className="text-adaptaiq-gray-600 font-bold text-sm hover:text-adaptaiq-blue-500 transition-colors">
                 About
-              </a>
-              <a href="/why" className="text-adaptaiq-blue-500 font-bold text-sm">
+              </Link>
+              <Link to="/why" className="text-adaptaiq-blue-500 font-bold text-sm">
                 Why
-              </a>
-              <a href="/early-access" className="text-adaptaiq-gray-500 font-bold text-sm hover:text-adaptaiq-blue-500 transition-colors">
+              </Link>
+              <Link to="/early-access" className="text-adaptaiq-gray-500 font-bold text-sm hover:text-adaptaiq-blue-500 transition-colors">
                 Early Access
-              </a>
+              </Link>
             </nav>
           </div>
         </div>
@@ -47,12 +49,12 @@ export default function Why() {
           <p className="text-gray-500 mb-6">
             This page is currently being developed. Please continue the conversation to have me build out this page content.
           </p>
-          <a 
-            href="/"
+          <Link
+            to="/"
             className="inline-flex items-center px-6 py-3 bg-adaptaiq-blue-500 text-white rounded-lg hover:bg-adaptaiq-blue-600 transition-colors"
           >
             ← Back to Home
-          </a>
+          </Link>
         </div>
       </div>
     </div>
