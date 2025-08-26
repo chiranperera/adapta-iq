@@ -159,13 +159,18 @@
   }
 
   .btn-interactive::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.2),
+      transparent
+    );
     transition: left 0.5s;
   }
 
@@ -174,9 +179,9 @@
   }
 
   .btn-outline-interactive:hover {
-    background: linear-gradient(135deg, #51B7FE 0%, #4DAEE9 100%);
+    background: linear-gradient(135deg, #51b7fe 0%, #4daee9 100%);
     color: white;
-    border-color: #51B7FE;
+    border-color: #51b7fe;
     transform: translateY(-2px);
     box-shadow: 0 10px 25px rgba(81, 183, 254, 0.2);
   }
