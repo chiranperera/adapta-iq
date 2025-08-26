@@ -1,0 +1,9 @@
+node_modules
+.git
+.env.local
+.env.*.local
+dist/server
+server/node-build.ts
+vite.config.server.ts
+netlify
+netlify.toml
