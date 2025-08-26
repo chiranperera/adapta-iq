@@ -53,7 +53,7 @@ export default function Index() {
               >
                 Early Access
               </Link>
-              <Button className="bg-adaptaiq-blue-500 hover:bg-adaptaiq-blue-600 text-adaptaiq-blue-100 font-bold px-6 py-2 rounded-full border border-adaptaiq-blue-300">
+              <Button className="bg-adaptaiq-blue-500 hover:bg-adaptaiq-blue-600 text-adaptaiq-blue-100 font-bold px-6 py-2 rounded-full border border-adaptaiq-blue-300 btn-interactive">
                 Join Waitlist
                 <svg className="ml-2 w-4 h-3" viewBox="0 0 32 17" fill="none">
                   <path
@@ -95,7 +95,7 @@ export default function Index() {
               person, every interaction, every goal.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center py-8">
-              <Button className="bg-adaptaiq-blue-500 hover:bg-adaptaiq-blue-600 text-adaptaiq-blue-100 font-bold px-8 py-6 rounded-full text-lg border border-adaptaiq-blue-400">
+              <Button className="bg-adaptaiq-blue-500 hover:bg-adaptaiq-blue-600 text-adaptaiq-blue-100 font-bold px-8 py-6 rounded-full text-lg border border-adaptaiq-blue-400 btn-interactive">
                 Join Early Access
                 <svg className="ml-3 w-5 h-4" viewBox="0 0 32 17" fill="none">
                   <path
@@ -107,7 +107,7 @@ export default function Index() {
               </Button>
               <Button
                 variant="outline"
-                className="bg-black/60 border-adaptaiq-blue-800 text-adaptaiq-blue-400 hover:bg-black/80 font-bold px-8 py-6 rounded-full text-lg"
+                className="bg-black/60 border-adaptaiq-blue-800 text-adaptaiq-blue-400 hover:bg-black/80 font-bold px-8 py-6 rounded-full text-lg btn-outline-interactive"
               >
                 Learn More
                 <svg className="ml-3 w-5 h-4" viewBox="0 0 32 17" fill="none">
@@ -324,7 +324,7 @@ export default function Index() {
               />
               <Button
                 type="submit"
-                className="bg-adaptaiq-blue-500 hover:bg-adaptaiq-blue-600 text-adaptaiq-blue-100 font-bold px-8 py-4 rounded-full text-lg border border-adaptaiq-blue-300 whitespace-nowrap"
+                className="bg-adaptaiq-blue-500 hover:bg-adaptaiq-blue-600 text-adaptaiq-blue-100 font-bold px-8 py-4 rounded-full text-lg border border-adaptaiq-blue-300 whitespace-nowrap btn-interactive"
               >
                 Count Me In
               </Button>
