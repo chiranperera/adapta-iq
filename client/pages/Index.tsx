@@ -159,6 +159,7 @@ export default function Index() {
                 src="https://cdn.builder.io/api/v1/image/assets%2Fc5814c5d11f14bad955f8b51830da316%2F8ade0503a2594401ad4780c210b4bfc2?format=webp&width=800"
                 alt="AdaptaIQ Intelligence Visualization"
                 className="w-full max-w-md h-auto mx-auto rounded-full shadow-lg"
+                style={{ backgroundColor: 'transparent', mixBlendMode: 'multiply' }}
               />
             </div>
           </div>
