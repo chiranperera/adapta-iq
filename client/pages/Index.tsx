@@ -209,7 +209,7 @@ export default function Index() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Learns You Card */}
-            <div className="bg-white border border-gray-100 p-8 rounded-none relative group hover:shadow-lg transition-shadow">
+            <div className="bg-white border border-gray-200 rounded-2xl p-8 relative group hover:shadow-xl hover:border-adaptaiq-blue-300 transition-all duration-300 transform hover:-translate-y-2">
               <div className="absolute top-6 right-6 w-6 h-6 border-2 border-gray-200 rounded-full"></div>
               <div className="mb-8">
                 <div className="w-24 h-24 mx-auto mb-6 relative">
@@ -229,7 +229,7 @@ export default function Index() {
             </div>
 
             {/* Redefines Learning Card */}
-            <div className="bg-white border border-gray-200 rounded-3xl p-8 relative group hover:shadow-lg transition-shadow">
+            <div className="bg-white border border-gray-200 rounded-2xl p-8 relative group hover:shadow-xl hover:border-adaptaiq-blue-300 transition-all duration-300 transform hover:-translate-y-2">
               <div className="mb-8">
                 <div className="w-24 h-24 mx-auto mb-6 relative">
                   <img
@@ -249,7 +249,7 @@ export default function Index() {
             </div>
 
             {/* Built to Evolve Card */}
-            <div className="bg-white border border-gray-100 p-8 rounded-none relative group hover:shadow-lg transition-shadow">
+            <div className="bg-white border border-gray-200 rounded-2xl p-8 relative group hover:shadow-xl hover:border-adaptaiq-blue-300 transition-all duration-300 transform hover:-translate-y-2">
               <div className="absolute top-4 right-4 w-6 h-6 border-2 border-gray-200 rounded-full"></div>
               <div className="absolute bottom-8 left-8 w-6 h-6 border border-gray-300 rounded"></div>
               <div className="mb-8">
